@@ -1,0 +1,89 @@
+Exploratory Data Analysis (EDA)
+Visulization and Presentation of Data
+=======================================
+Two types of data
+1) Structured Data
+Main sources are Sql, Excel, CSV
+	i) Qualitative (in 99 percent cases, it is text data:.text)
+	Ordinal:    text with order, like grades
+	Nominal:    text with no order, like names
+	Boolean:    0 and 1, True and False, On and Off
+
+	
+	ii) Quantitative (numerical)
+		a)Discrete 
+		e.g. Nos. of students in class
+		start and stop is necessary
+		few cases exist with floating point
+		b) Continuous
+		time entering in class(may be floating)
+		price prediction model is continuous
+		1 to infinity numbers are continuous
+
+2) Unstructured Data
+pdf, image/videos, .txt, .rar, .zip e.t.c
+
+
+
+Central Tendency
+-----------------
+Mean
+Median
+Mode
+1, 2, 2, 3, 3, 3, 4, 4, 5   (this have same mean, median and mode)
+above is Binomial data, if we plot on curve then we will get equal distribution (x-axis: numbers, Y-axis, no. of times it appeared)
+
+Variance: sum of square of distance from the mean 
+(Spreading of values from  mean)
+
+Standard Deviation: Sqrt of Variance   
+
+Quartiles  (Quartiles of data)
+
+IQR= Q3 - Q1
+(To detect outliers in data)
+
+Z-sore = (n-mean) / std          where: n is any number 
+distance from mean in terms of standard deviation (calculated for each number)
+
+
+
+Q)
+1,2,3,3,4,6,7
+min = 1
+max = 7
+range= (1,7)
+Len=n= 7
+sum(n) = 26
+mean = 3.7 ~ 4
+median = 3
+mode = 3
+variance =    9 + 4 + 1 + 1 + 0 + 4 + 9 = 28
+std = 6
+Z-sore = 
+For 3:
+(3-4)/6 = 0.17
+For 7:
+(7-4)/6 = 0.5
+IQR = Q3 - Q1
+
+
+Box plot:    25% tp 75%   of data  (Inter quartiles range)
+
+Percentiles: 10% of data
+
+Normal distribution  (follows binomial case)
+Uniform dustribution
+Left Skewed
+Left skewed
+
+Correlation: represent from -1 to +1
+age vs fitness relationship
+
+Correlataion heatmap
+above and below, relation is same, so normally it represents in diagonal shape
+ 
+
+
+
+
